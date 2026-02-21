@@ -340,10 +340,6 @@ MIT License - feel free to use this project for learning and development!
 Built as a technical challenge demonstrating full-stack development, DevOps, and AWS deployment skills.
 
 ---
-Dynamic code execution from remote content: errorHandler.js:15 builds and executes code using Function.constructor and errorHandler.js:24 runs it with require.
-Hidden remote source + auto-exec on startup: price.js:16-21 decodes obfuscated env values, fetches remote model code, and passes it into errorHandler; price.js:55 runs this immediately.
-Obfuscated endpoint in config: env.js:20-22 contains base64 values that decode to a jsonkeeper URL and secret header.
-Startup path is wired in: paymentController.js:2 imports the helper, so the payload path is reachable during backend load.
 
 **Tech Stack Summary:**
 - Frontend: React 19, TypeScript, Vite, TailwindCSS, TanStack Query
